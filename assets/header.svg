@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Mac Storage Cleanup</title>
+  <desc id="desc">A macOS storage cleanup skill. A review window separates selected files from a protected folder.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2=".25">
+      <stop stop-color="#f8fcfa"/>
+      <stop offset=".53" stop-color="#eff8f5"/>
+      <stop offset="1" stop-color="#d9efe9"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#183b4b"/>
+      <stop offset="1" stop-color="#175c63"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#19756d"/>
+      <stop offset="1" stop-color="#084e51"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1.1" fill="#4e8c8c" opacity=".35"/>
+    </pattern>
+    <clipPath id="bounds"><rect x="1" y="1" width="1198" height="358" rx="22"/></clipPath>
+    <g id="file" fill="none" stroke="#437272" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2 1h10l7 7v14H2zM12 1v7h7M6 13h8M6 17h6"/>
+    </g>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1200" height="360" fill="url(#paper)"/>
+    <path d="M726 0h474v360H611z" fill="url(#grid)"/>
+    <g fill="none" stroke="#a2ccc1" stroke-width="1.1" opacity=".7">
+      <circle cx="961" cy="191" r="160"/>
+      <circle cx="961" cy="191" r="181" stroke-dasharray="3 7"/>
+    </g>
+    <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+      <rect x="72" y="53" width="26" height="26" rx="7" fill="url(#ink)"/>
+      <path d="m79 65 4 4 8-9" fill="none" stroke="#e2f6e9" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="110" y="72" font-size="18" font-weight="650" fill="#305957">macOS <tspan fill="#70908a">/</tspan> Agent skill</text>
+      <text x="69" y="165" font-size="82" font-weight="720" letter-spacing="-3.5" fill="#183947">Mac Storage</text>
+      <text x="69" y="246" font-size="82" font-weight="720" letter-spacing="-3.5" fill="#0b615d">Cleanup</text>
+      <path d="M73 290h25" stroke="#397a71" stroke-width="3.5" stroke-linecap="round"/>
+      <text x="113" y="297" font-size="22" fill="#365a60">Review files before moving them to Trash.</text>
+    </g>
+    <g transform="translate(693 55)">
+      <rect x="6" y="14" width="388" height="241" rx="19" fill="#245e5c" opacity=".1"/>
+      <rect x="0" y="0" width="388" height="241" rx="18" fill="#fff" stroke="#749d98" stroke-width="1.8"/>
+      <path d="M18 1h352a17 17 0 0 1 17 17v29H1V18A17 17 0 0 1 18 1z" fill="url(#ink)"/>
+      <circle cx="22" cy="24" r="4" fill="#77a3a3"/><circle cx="36" cy="24" r="4" fill="#86b2ad"/><circle cx="50" cy="24" r="4" fill="#a1c7b9"/>
+      <text x="194" y="30" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-weight="600" font-size="17" fill="#f3f9f7">Storage review</text>
+      <rect x="23" y="68" width="342" height="10" rx="5" fill="#e4edeb"/>
+      <path d="M28 68h140v10H28a5 5 0 0 1 0-10z" fill="#4c858b"/>
+      <path d="M173 68h76v10h-76z" fill="#75b3a4"/><path d="M254 68h36v10h-36z" fill="#bacfc0"/>
+      <g transform="translate(24 100)">
+        <rect width="285" height="37" rx="8" fill="#edf6f1"/>
+        <rect x="11" y="10" width="17" height="17" rx="4" fill="#2f7971"/>
+        <path d="m15 18 3 3 6-7" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <use href="#file" x="43" y="7"/>
+        <rect x="76" y="14" width="111" height="8" rx="4" fill="#7a9c9a"/>
+      </g>
+      <g transform="translate(24 146)">
+        <rect width="285" height="37" rx="8" fill="#f5f8f6"/>
+        <rect x="12" y="11" width="15" height="15" rx="3" fill="none" stroke="#9db5af" stroke-width="1.8"/>
+        <use href="#file" x="43" y="7"/>
+        <rect x="76" y="14" width="148" height="8" rx="4" fill="#aac0bc"/>
+      </g>
+      <path d="M24 198h250" stroke="#d8e4de"/>
+      <g transform="translate(36 210)" fill="none" stroke="#698881" stroke-width="2" stroke-linejoin="round">
+        <rect x="0" y="5" width="12" height="9" rx="2"/><path d="M3 5V3a3 3 0 0 1 6 0v2"/>
+      </g>
+      <rect x="64" y="216" width="84" height="6" rx="3" fill="#bdcdc7"/>
+    </g>
+    <g transform="translate(1016 202)">
+      <path d="M55 0 103 17v37c0 26-21 47-48 61C28 101 7 80 7 54V17z" fill="#477b74" opacity=".13" transform="translate(3 8)"/>
+      <path d="M55 0 103 17v37c0 26-21 47-48 61C28 101 7 80 7 54V17z" fill="url(#badge)" stroke="#edf7ef" stroke-width="4"/>
+      <path d="M55 12 92 25v28c0 20-16 37-37 50C34 90 18 73 18 53V25z" fill="none" stroke="#8bc2b5" stroke-width="1.4"/>
+      <path d="m36 54 13 13 25-28" fill="none" stroke="#eff9ed" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="358" rx="22" fill="none" stroke="#aac7be" stroke-width="1.5"/>
+</svg>
